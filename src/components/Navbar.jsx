@@ -26,7 +26,7 @@ const Navbar = () => {
         </a>
 
         <Link to="/">
-          <img src="/assets/logo/logo_nav.png" height={350} width={350} />
+          <img src="/assets/logo/logo_nav1.png" height={350} width={350} />
         </Link>
 
         <a
