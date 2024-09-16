@@ -56,7 +56,7 @@ export default function ComingSoon() {
                             om
                         </motion.span>
                         <motion.span initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.8, delay: 1.6 }}>
-                            ming
+                            ing
                         </motion.span>
                         <motion.span initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.8, delay: 2.4 }}>
                             <span> </span>
