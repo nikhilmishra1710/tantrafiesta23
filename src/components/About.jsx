@@ -104,10 +104,10 @@ const About = () => {
 
         <div>
           <Link
-            to="/sponsors"
+            to="/"
             className=" tracking-widest py-2 px-4 font-light   w-[100px] text-center rounded-full border border-[#A418BA] bg-[#A418BA] text-white hover:bg-transparent hover:text-[#A418BA]"
           >
-            Sponsors
+            Past Sponsors
           </Link>
           <div className="flex flex-col   justify-start mt-3 items-start  w-1/2">
             <div className="mt-3 ml-2">

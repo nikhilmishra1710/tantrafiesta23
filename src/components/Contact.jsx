@@ -71,10 +71,10 @@ const Contact = () => {
         <motion.div
           initial={{ height: "0%" }}
           animate={open ? { height: "100%", opacity: 1 } : { opacity: 0 }}
-          className="codeBlock w-3/4 min-h-[200px]  relative flex flex-col justify-center items-center "
+          className="codeBlock w-[90%] min-h-[250px]  relative flex flex-col justify-center items-center "
         >
-          <div className="code w-full mx-2 border border-white/20 bg-[#151515] h-[200px]  relative  rounded-xl">
-            <div className="absolute font-light font-mono  p-4 top-0 left-0 h-full w-full text-base md:text-xl">
+          <div className="code w-full mx-2 border border-white/20 bg-[#151515] h-[250px]  relative  rounded-xl">
+            <div className="absolute font-light font-mono  p-4 top-0 left-0 h-full w-full text-wrap text-base md:text-xl">
               {submitted && (
                 <>
                   <div className="mt-8 text-green-600 font-extrabold opacity-100">

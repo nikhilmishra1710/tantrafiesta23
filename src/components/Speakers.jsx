@@ -16,11 +16,11 @@ const Speakers = () => {
     <div
       id="speakers"
       ref={divRef}
-      className="flex z-10 w-screen lg:w-[75vw] mt-4 "
+      className="flex z-10 w-screen lg:w-[75vw] mt-4 pl-4 "
     >
       <div className="w-[8%] text-3xl flex justify-center relative ">
         <div className="flex flex-col  items-center absolute h-full">
-          <div className="relative text-pink-200">
+          <div className="relative text-pink-200 flex justify-center items-center">
             <LuHeartHandshake className="mt-4 mb-8" />
             <div className="absolute top-0 left-0 -z-10 h-[64px] w-full bg-pink-500 blur-[30px]"></div>
           </div>
@@ -54,7 +54,7 @@ const Speakers = () => {
           </div>
         </div>
       </div>
-      <div className="w-full">
+      <div className="max-w-full pl-8">
         <Tag text="Speakers" />
         <div className="text-3xl md:text-6xl font-semibold mt-6">
           Meet Our Past Guests
