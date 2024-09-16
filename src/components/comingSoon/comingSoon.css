@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Buenard:wght@400;700&display=swap");
+
+
+.gradient-text {
+    background-image: linear-gradient(90deg, #0ff0fc 0%, #80e961 100%);
+    animation: gradientAnimation 5s linear;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.gradient-text-noAnim {
+  background-image: linear-gradient(90deg, #0ff0fc 0%, #80e961 100%);
+  /* animation: gradientAnimation 5s linear; */
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+.font-bord {
+    font-family: "Bord";
+}
+
+@font-face {
+    font-family: "Bord";
+    src: url("/assets/Bord.otf") format("opentype");
+}
+
+@keyframes gradientAnimation {
+    0% {
+        opacity: 0.05;
+        background-position: -100px -100px;
+    }
+
+    50% {
+        opacity: 1;
+    }
+    100% {
+        background-position: 0 0;
+    }
+}
+
+.font-buenard {
+    font-family: "Buenard", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* @keyframes maskAnimate {
+  0% {
+    mask: linear-gradient(135deg, white 0%, transparent, transparent, transparent);
+  }
+  10% {
+    mask: linear-gradient(135deg, white 10%, transparent, transparent, transparent);
+  }
+  20% {
+    mask: linear-gradient(135deg, white 20%, transparent, transparent, transparent);
+  }
+  30% {
+    mask: linear-gradient(135deg, white 30%, transparent, transparent, transparent);
+  }
+  40% {
+    mask: linear-gradient(135deg, white 40%, transparent, transparent, transparent);
+  }
+  50% {
+    mask: linear-gradient(135deg, white 50%, transparent, transparent, transparent);
+  }
+  60% {
+    mask: linear-gradient(135deg, white 60%, transparent, transparent, transparent);
+  }
+  70% {
+    mask: linear-gradient(135deg, white 70%, transparent, transparent, transparent);
+  }
+  80% {
+    mask: linear-gradient(135deg, white 80%, transparent, transparent, transparent);
+  }
+  90% {
+    mask: linear-gradient(135deg, white 90%, transparent, transparent, transparent);
+  }
+  100% {
+    mask: linear-gradient(135deg, white 100%, transparent, transparent, transparent);
+  }
+} */
+@keyframes maskAnimate {
+    from {
+        mask: linear-gradient(135deg, white 0%, transparent, transparent, transparent);
+    }
+    to {
+        mask: linear-gradient(135deg, white 100%, transparent, transparent, transparent);
+    }
+}
